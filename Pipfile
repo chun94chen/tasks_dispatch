@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = false
+
+[dev-packages]
+
+[packages]
+requests = "*"
+sqlalchemy = "*"
+flask = "*"
+pycryptodome = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+flask-login = "*"
+redis = "*"
+
+[requires]
+python_version = "3.6"
